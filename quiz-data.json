@@ -1,0 +1,73 @@
+{
+    "welcome_screen": {
+        "title": "Welcome to the Running Bliss Test!",
+        "subtitle": "Discover how running brings joy to your life.",
+        "button_text": "Let's go",
+        "image_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+    },
+    "questions": [
+        {
+            "question": "You arrived at the start, but you see that you forgot your lucky T-shirt. What will you do?",
+            "question_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png",
+            "answers": [
+                {
+                    "text": "I’ll go to the Wild shop and buy a new one",
+                    "points": 30,
+                    "description": "This could be the start of a new adventure."
+                },
+                {
+                    "text": "I’ll run in what I came in",
+                    "points": 20,
+                    "description": "Being yourself is what matters most."
+                }
+            ],
+            "required": true
+        },
+        {
+            "question": "Another question here...",
+            "question_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png",
+            "answers": [
+                {
+                    "text": "Answer 1",
+                    "points": 10,
+                    "description": "Optional description"
+                },
+                {
+                    "text": "Answer 2",
+                    "points": 20,
+                    "description": ""
+                }
+            ],
+            "required": false
+        }
+    ],
+    "results": [
+        {
+            "score_range": [
+                0,
+                30
+            ],
+            "title": "Getting Started",
+            "description": "You're on the path to becoming a running enthusiast!",
+            "image_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+        },
+        {
+            "score_range": [
+                31,
+                60
+            ],
+            "title": "Jogging Junkie",
+            "description": "You love to run, and it's starting to show!",
+            "image_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+        },
+        {
+            "score_range": [
+                61,
+                100
+            ],
+            "title": "Running Bliss",
+            "description": "Congratulations, running is your bliss!",
+            "image_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+        }
+    ]
+}
