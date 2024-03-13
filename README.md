@@ -1,5 +1,7 @@
 # Quiz Template Project
 
+Check out the live demo here: [Quiz Template Demo](https://jsquizmaker.pages.dev).
+
 The Quiz Template Project is a flexible and easily customizable quiz application built with HTML5, CSS, and JavaScript. It dynamically generates quizzes based on JSON input, allowing for quick content updates and styling adjustments without altering the core logic. This template is designed to be a starting point for developers and content creators looking to create interactive quizzes for their websites or web applications.
 
 ## Features
