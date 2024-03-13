@@ -1,73 +1,209 @@
 {
     "welcome_screen": {
-        "title": "Welcome to the Running Bliss Test!",
-        "subtitle": "Discover how running brings joy to your life.",
-        "button_text": "Let's go",
-        "image_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+        "title": "Discover Your Dream City Quiz!",
+        "subtitle": "Find out which city matches your personality.",
+        "button_text": "Start the Quiz",
+        "image_url": "https://source.unsplash.com/random/600x300/?city"
     },
     "questions": [
         {
-            "question": "You arrived at the start, but you see that you forgot your lucky T-shirt. What will you do?",
-            "question_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png",
+            "question": "You have a free weekend and a ticket to anywhere. What's your plan?",
+            "question_url": "https://source.unsplash.com/random/600x300/?adventure",
             "answers": [
                 {
-                    "text": "I’ll go to the Wild shop and buy a new one",
+                    "text": "Explore historical landmarks and museums",
                     "points": 30,
-                    "description": "This could be the start of a new adventure."
+                    "description": "You have a thirst for history and culture."
                 },
                 {
-                    "text": "I’ll run in what I came in",
+                    "text": "Hit the beach and soak up some sun",
                     "points": 20,
-                    "description": "Being yourself is what matters most."
+                    "description": "You're all about relaxation and enjoying the natural beauty."
                 }
             ],
             "required": true
         },
         {
-            "question": "Another question here...",
-            "question_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png",
+            "question": "What's your ideal way to spend an evening in the city?",
+            "question_url": "https://source.unsplash.com/random/600x300/?nightlife",
             "answers": [
                 {
-                    "text": "Answer 1",
+                    "text": "Dinner at a top-rated restaurant",
                     "points": 10,
-                    "description": "Optional description"
+                    "description": "Culinary adventures are your jam."
                 },
                 {
-                    "text": "Answer 2",
+                    "text": "Attending a live concert or show",
                     "points": 20,
-                    "description": ""
+                    "description": "You live for the arts and entertainment."
                 }
             ],
             "required": false
+        },
+        {
+            "question": "What's your preferred climate?",
+            "question_url": "https://source.unsplash.com/random/600x300/?weather",
+            "answers": [
+                {
+                    "text": "Warm and sunny",
+                    "points": 20,
+                    "description": "You thrive in sunshine and clear skies."
+                },
+                {
+                    "text": "Cold and snowy",
+                    "points": 30,
+                    "description": "You love the magic of winter and cozy atmospheres."
+                }
+            ],
+            "required": true
+        },
+        {
+            "question": "How do you feel about public transportation?",
+            "question_url": "https://source.unsplash.com/random/600x300/?transport",
+            "answers": [
+                {
+                    "text": "I love it, it's eco-friendly and efficient",
+                    "points": 30,
+                    "description": "You're all for cities with great metro systems."
+                },
+                {
+                    "text": "I prefer to drive or cycle",
+                    "points": 20,
+                    "description": "You enjoy the freedom of navigating the city your way."
+                }
+            ],
+            "required": true
+        },
+        {
+            "question": "What's your ideal living situation?",
+            "question_url": "https://source.unsplash.com/random/600x300/?homes",
+            "answers": [
+                {
+                    "text": "A cozy apartment in the city center",
+                    "points": 30,
+                    "description": "Urban living at its finest is your preference."
+                },
+                {
+                    "text": "A quiet house in the suburbs",
+                    "points": 20,
+                    "description": "You appreciate the peace and space of suburban life."
+                }
+            ],
+            "required": true
+        },
+        {
+            "question": "What kind of outdoor activities do you enjoy?",
+            "question_url": "https://source.unsplash.com/random/600x300/?nature",
+            "answers": [
+                {
+                    "text": "Hiking and exploring nature",
+                    "points": 30,
+                    "description": "You're an adventurer at heart who loves the great outdoors."
+                },
+                {
+                    "text": "City parks and outdoor cafes",
+                    "points": 20,
+                    "description": "You enjoy the blend of nature with city life."
+                }
+            ],
+            "required": true
+        },
+        {
+            "question": "What's your take on nightlife?",
+            "question_url": "https://source.unsplash.com/random/600x300/?bar",
+            "answers": [
+                {
+                    "text": "I love going out to bars and clubs",
+                    "points": 20,
+                    "description": "Nightlife is your playground."
+                },
+                {
+                    "text": "I prefer quiet evenings or small gatherings",
+                    "points": 30,
+                    "description": "You enjoy the serene side of the night."
+                }
+            ],
+            "required": true
+        },
+        {
+            "question": "How important is food diversity to you?",
+            "question_url": "https://source.unsplash.com/random/600x300/?food",
+            "answers": [
+                {
+                    "text": "Very important, I love trying different cuisines",
+                    "points": 30,
+                    "description": "A foodie who seeks culinary adventures in every corner."
+                },
+                {
+                    "text": "Not very, I stick to what I like",
+                    "points": 20,
+                    "description": "You prefer the comfort of familiar tastes."
+                }
+            ],
+            "required": true
+        },
+        {
+            "question": "How do you feel about crowds?",
+            "question_url": "https://source.unsplash.com/random/600x300/?crowd",
+            "answers": [
+                {
+                    "text": "I'm energized by busy places",
+                    "points": 20,
+                    "description": "The hustle and bustle of crowded spaces excite you."
+                },
+                {
+                    "text": "I prefer quieter, less crowded areas",
+                    "points": 30,
+                    "description": "Peace and space are what you seek in a city."
+                }
+            ],
+            "required": true
+        },
+        {
+            "question": "What's your preference for arts and culture?",
+            "question_url": "https://source.unsplash.com/random/600x300/?museum",
+            "answers": [
+                {
+                    "text": "I love museums, galleries, and theaters",
+                    "points": 30,
+                    "description": "The arts and cultural scene is a big draw for you."
+                },
+                {
+                    "text": "I'm not very interested in those",
+                    "points": 20,
+                    "description": "You have other interests that capture your heart."
+                }
+            ],
+            "required": true
         }
     ],
     "results": [
         {
             "score_range": [
                 0,
-                30
-            ],
-            "title": "Getting Started",
-            "description": "You're on the path to becoming a running enthusiast!",
-            "image_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
-        },
-        {
-            "score_range": [
-                31,
-                60
-            ],
-            "title": "Jogging Junkie",
-            "description": "You love to run, and it's starting to show!",
-            "image_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
-        },
-        {
-            "score_range": [
-                61,
                 100
             ],
-            "title": "Running Bliss",
-            "description": "Congratulations, running is your bliss!",
-            "image_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+            "title": "Cultural Explorer",
+            "description": "Cities rich in history and culture like Paris or Rome are calling your name!",
+            "image_url": "https://source.unsplash.com/random/600x300/?paris"
+        },
+        {
+            "score_range": [
+                101,
+                200
+            ],
+            "title": "Beach Lover",
+            "description": "You're most at home in sunny, laid-back cities like Barcelona or Honolulu.",
+            "image_url": "https://source.unsplash.com/random/600x300/?beach"
+        },
+        {
+            "score_range": [
+                201,
+                300
+            ],
+            "title": "Urban Night Owl",
+            "description": "Vibrant cities with bustling nightlife like New York or Tokyo are your playground.",
+            "image_url": "https://source.unsplash.com/random/600x300/?newyork"
         }
     ]
 }

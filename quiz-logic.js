@@ -16,6 +16,7 @@ async function loadQuizData(jsonPath) {
 document.addEventListener('DOMContentLoaded', async function() {
   const jsonPath = container.getAttribute('data-json-path');
   quizData = await loadQuizData(jsonPath); // Load and store quizData globally
+  console.log(`quizData Loaded`);
 
   if (!quizData) {
     console.error('Quiz data is not available.');

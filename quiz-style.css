@@ -1,0 +1,64 @@
+/* General styling */
+body {
+    font-family: 'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1, h2, p {
+    text-align: left;
+    margin: 0 0 10px; /* Reduced bottom margin */
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #000;
+    color: #ffffff;
+    padding: 10px 20px; /* Slightly reduced padding */
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: background-color 0.3s, transform 0.1s;
+    margin-top: 8px; /* Reduced margin */
+    margin-bottom: 4px; /* Reduced margin for closer description */
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+/* Answer descriptions */
+.answer-description {
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 2px; /* Reduced margin to bring closer to the button */
+    margin-bottom: 8px; /* Reduced margin to tighten up space */
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
